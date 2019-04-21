@@ -1,18 +1,59 @@
 /*universal selector*/
 * {
   background-color: rgb(255, 242, 242);
-  color: rgb(32, 64, 86);
+  font-family: 'Work Sans', sans-serif;
 }
 
 html {
   font-size: 14px;
-  color: rgb(32, 64, 86);
 }
 
 .container-fluid {
-  padding-top: 5rem;
+  padding-top: 5.2rem;
 }
 
-h5 {
-  font-size: bold;
+html h1{
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: rgb(32, 64, 86);
+}
+
+html h5 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+html p {
+  color: rgb(74, 74, 74);
+}
+
+/*.col-sm-4  {
+  height: 12.5rem;
+  background-color: rgb(32, 64, 86);
+  border: 4px solid #ffffff;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 0.5rem;
+  font-weight: 900;
+  font-size: 7rem;
+}*/
+
+.container-fluid .row {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.col-md-8 .row {
+  height: 12.5rem;
+}
+
+.col-sm-3 {
+  background-color: rgb(153, 153, 153);
+  color: rgb(204, 204, 204);
+  border: 4px solid #ffffff;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 0.5rem;
+  font-weight: 900;
+  font-size: 7rem;
 }
