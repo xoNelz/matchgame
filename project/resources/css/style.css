@@ -57,3 +57,8 @@ html p {
   font-weight: 900;
   font-size: 7rem;
 }
+
+.col-sm-3:hover {
+  background-color: gold;
+  cursor: pointer;
+}
